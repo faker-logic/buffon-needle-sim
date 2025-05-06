@@ -51,7 +51,7 @@ function setup() {
   fpsSlider = createSlider(1, 60, 30);
   fpsSlider.position(RECT_X1 + 150, RECT_Y1 + RECT_HEIGHT + 50);
 
-  errorIntervalSlider = createSlider(1, TOTAL_NEEDLES / 10, 10, 1);
+  errorIntervalSlider = createSlider(1, TOTAL_NEEDLES / 10, 4, 1);
   errorIntervalSlider.position(RECT_X1 + 300, RECT_Y1 + RECT_HEIGHT + 50);
 }
 
